@@ -2,8 +2,7 @@
 weight: 100
 ---
 # Language Reference
-The grug programming language is designed to be as simple as possible, while at
-the same time reducing the number of mistakes. TODO
+This document serves as a reference for the grug programming language.
 ## Types
 Every value in grug is assigned a certain *type*, which represents the kind of
 data stored within it. grug has 4 intrinsic types, in addition to types specific
