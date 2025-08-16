@@ -1,0 +1,31 @@
+site_name: grug documentation
+site_url: https://mynameistrez.github.io/grug/
+copyright: This content is available under the CC BY-SA 4.0 license.
+theme:
+  name: material
+  language: en
+  favicon: assets/favicon.png
+  features:
+    - navigation.footer
+  palette:
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+plugins:
+  - search:
+      lang: en
+  - mkdocs-nav-weight
+  - link-marker
