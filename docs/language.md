@@ -22,8 +22,12 @@ In addition, each game may define a variety of other types, known as IDs. ID
 types can have any name, and are used to represent any other type of data a game
 may have (e.g. entities, items, blocks, prototypes, etc.). IDs can also have the
 special value `null_id`, useful for initializing a [local
-variable](#local-variables) before you have an value ready for it.  Internally,
+variable](#local-variables) before you have an value ready for it. Internally,
 IDs are just 64-bit integers.
+
+There is also the `any` type, which functions similarly to an ID type, except
+that any ID can be converted to it. To convert back to a normal ID type, a game
+developer must provide a [game function](#game-functions) to do so.
 
 !!! note
     Programmers coming from other languages may notice the lack of any
